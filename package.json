@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^26.1.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.6.3"
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/IgorLemos01/sistema-contador/issues"
   },
-  "homepage": "https://github.com/IgorLemos01/sistema-contador#readme"
+  "homepage": "https://github.com/IgorLemos01/sistema-contador#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
