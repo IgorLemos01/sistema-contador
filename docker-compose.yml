@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: sistema-contador-db
+    restart: always
+    environment:
+      POSTGRES_USER: contador
+      POSTGRES_PASSWORD: contador123
+      POSTGRES_DB: sistema_contador
+    ports:
+      - "5433:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
